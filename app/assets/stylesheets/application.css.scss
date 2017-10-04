@@ -21,7 +21,7 @@ h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
-body, .navbar {
+.navbar, .home-callout {
   //Gradient provided by @colorzilla at uiGradients.com
   background: rgb(97,196,25); /* Old browsers */
   background: -moz-linear-gradient(left, rgba(97,196,25,1) 50%, rgba(180,227,145,1) 78%, rgba(180,227,145,1) 78%, rgba(180,227,145,1) 100%); /* FF3.6-15 */
@@ -32,4 +32,11 @@ body, .navbar {
 
 .navbar {
   border: none;
+}
+
+.home-callout {
+  color: white;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
