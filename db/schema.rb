@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(version: 20171017200607) do
     t.string   "job_title"
     t.string   "phone_number"
     t.string   "contact_email"
-    t.string   "description"
+    t.string   "discription"
     t.datetime "created_at",          null: false
     t.datetime "updated_at",          null: false
     t.string   "avatar_file_name"
